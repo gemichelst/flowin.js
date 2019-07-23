@@ -1,0 +1,1174 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-size\tproperty"
+			],
+			[
+				"pL",
+				"pLoopTimeout"
+			],
+			[
+				"pLo",
+				"pLoopCount"
+			],
+			[
+				"time",
+				"timeoutSeconds"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"pyr",
+				"pyramid-top-image"
+			],
+			[
+				"pya",
+				"pyramid-middle-group"
+			],
+			[
+				"an",
+				"animation-direction\tproperty"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"pulse",
+				"pulse-black-blue"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pulse-",
+				"pulse-green-dark"
+			],
+			[
+				"pul",
+				"pulse-green-light"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"down",
+				"download_link"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ani",
+				"animation-name\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"p",
+				"pre-line\twhite-space"
+			],
+			[
+				"web",
+				"webkit-fill-available"
+			],
+			[
+				"we",
+				"webkit-fill-available"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"conten--bo",
+				"content--body_column"
+			],
+			[
+				"con",
+				"content_clone"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"animation",
+				"animation-fill-mode\tproperty"
+			],
+			[
+				"a",
+				"animation-delay\tproperty"
+			],
+			[
+				"sc",
+				"scale()\ttransform"
+			],
+			[
+				"loa",
+				"loader-state"
+			],
+			[
+				"sca",
+				"scaleX()\ttransform"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"jal",
+				"jalousie--2"
+			],
+			[
+				"fi",
+				"fill\tproperty"
+			],
+			[
+				"b",
+				"background-position\tproperty"
+			],
+			[
+				"text-st",
+				"text-transform\tproperty"
+			],
+			[
+				"te",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"background-im",
+				"background-image-transform"
+			],
+			[
+				"animationn",
+				"animation-timing-function\tproperty"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"text-",
+				"text-rendering\tproperty"
+			],
+			[
+				"me",
+				"meter\t<meter>"
+			],
+			[
+				"e",
+				"ease-in-out"
+			],
+			[
+				"anni",
+				"animation-timing-function\tproperty"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"mysql_co",
+				"mysql_conn"
+			],
+			[
+				"w",
+				"width\tAttr"
+			],
+			[
+				"error_",
+				"error_reporting"
+			],
+			[
+				"glob",
+				"globals\t$GLOBALS['…']"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"bar2_2_va",
+				"bar2_2_value"
+			],
+			[
+				"sele",
+				"selected\tAttr"
+			],
+			[
+				"se",
+				"selected\tAttr"
+			],
+			[
+				"replaceW",
+				"replaceWith\t.replaceWith()"
+			],
+			[
+				"cloneN",
+				"cloneNode(deep)\twebcomponents.js"
+			],
+			[
+				"chartClone_",
+				"chartClone_backup"
+			],
+			[
+				"sum5_va",
+				"sum5_value_pos"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"roundU",
+				"roundUp(num, precision)\ttef_view_clean.html"
+			],
+			[
+				"Round",
+				"roundUp(num, precision)\ttef_view_clean.html"
+			],
+			[
+				"bar1-va",
+				"bar1-1-value\t style.css"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"stroke",
+				"stroke-linejoin\tproperty"
+			],
+			[
+				"ease-in",
+				"ease-in-out"
+			],
+			[
+				"anim",
+				"animation-name"
+			],
+			[
+				"scr",
+				"script\t<script>"
+			],
+			[
+				"le",
+				"left\tproperty"
+			],
+			[
+				"end_d",
+				"end_date_tmp"
+			],
+			[
+				"blue",
+				"skyblue"
+			],
+			[
+				"content",
+				"content--box\t style.css"
+			],
+			[
+				"cen",
+				"center\tTag"
+			],
+			[
+				"widh",
+				"width"
+			],
+			[
+				"colla",
+				"collapsible_popout_p2"
+			],
+			[
+				"FB_user",
+				"FB_user_id"
+			],
+			[
+				"user",
+				"fb_user_followers"
+			],
+			[
+				"fa",
+				"facebook-api-influencer-v2"
+			],
+			[
+				"geo",
+				"geotagged_count"
+			],
+			[
+				"inf",
+				"influencer_fb_id"
+			],
+			[
+				"hash",
+				"hashtags_count"
+			],
+			[
+				"local",
+				"localPort"
+			],
+			[
+				"die",
+				"diejungskochenundbacken"
+			],
+			[
+				"FB_engage",
+				"FB_engagement_score"
+			],
+			[
+				"mdc-layout-grid__",
+				"mdc-layout-grid__cell\t material-components-web.css"
+			],
+			[
+				"FV",
+				"FB_engagement_value"
+			],
+			[
+				"IG",
+				"IG_engagement_value"
+			],
+			[
+				"onmou",
+				"onmouseout\tAttr"
+			],
+			[
+				"desc",
+				"description_htmlentities"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"styl",
+				"style"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"onmouse",
+				"onmouseenter\tAttr"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"pid",
+				"uid_pid"
+			],
+			[
+				"my",
+				"mysql_connection_socialfeed()\tmixed"
+			],
+			[
+				"checkData",
+				"checkData_query"
+			],
+			[
+				"influencer_re",
+				"influencer_reachRate_fb"
+			],
+			[
+				"influencer_",
+				"influencer_reachRate_ig"
+			],
+			[
+				"app",
+				"appsecret_proof"
+			],
+			[
+				"influenc",
+				"influencers\t style.css"
+			],
+			[
+				"fb_",
+				"fb_page_url"
+			],
+			[
+				"fb_user_foll",
+				"fb_user_followers_raw"
+			],
+			[
+				"influ",
+				"influencers_facebook"
+			],
+			[
+				"tds",
+				"tds_cookies"
+			],
+			[
+				"tds_",
+				"tds_root_dir"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4188,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flowin_dev.js",
+			"settings":
+			{
+				"buffer_size": 127,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "src/stylus/src/vars.styl",
+			"settings":
+			{
+				"buffer_size": 928,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stylus/src/hover.styl",
+			"settings":
+			{
+				"buffer_size": 231,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stylus/src/fadein.styl",
+			"settings":
+			{
+				"buffer_size": 2740,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stylus/flowin.styl",
+			"settings":
+			{
+				"buffer_size": 253,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stylus/src/keyframes.styl",
+			"settings":
+			{
+				"buffer_size": 811,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/stylus/src/example-data.styl",
+			"settings":
+			{
+				"buffer_size": 614,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"In",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"htmlprettif",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"autoprefix",
+			"autoprefixer"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS",
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS/dist",
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS/src",
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS/src/stylus",
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS/src/stylus/src"
+	],
+	"file_history":
+	[
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS/src/package.json",
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS/Makefile",
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS/src/stylus/flowin.styl",
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS/dist/flowin.css",
+		"/Users/m.matzat/HTDOCS/FLOWIN.JS/src/stylus/src/,e.styl",
+		"/Users/m.matzat/HTDOCS/pulse-pablo/library/stylus/_base/_main.styl",
+		"/Users/m.matzat/HTDOCS/pulse-pablo/assets/js/script.js",
+		"/Users/m.matzat/HTDOCS/td-editor-withben/includes/socialfeed-data.inc.php",
+		"/Users/m.matzat/HTDOCS/td-editor-withben/includes/content/socialfeed.inc.php",
+		"/Users/m.matzat/HTDOCS/td-editor-withben/css/style.css",
+		"/Users/m.matzat/HTDOCS/td-editor-withben/glossary_iframe_v5.php",
+		"/Users/m.matzat/HTDOCS/LIKETHISLIKETHAT/assets/css/ltlt-default.css",
+		"/Users/m.matzat/HTDOCS/LIKETHISLIKETHAT/index.html",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/stylus/_base/_main.styl",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/stylus/_base/_base.styl",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/stylus/_base/_settings.styl",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/incl/header-about.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/stylus/_base/_layout.styl",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/incl/scripts.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/stylus/_base/_columns.styl",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/stylus/_base/_swiper.styl",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/incl/head.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/technology.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/pyramid.html",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/solutions_sources.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/solutions.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/index.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/stylus/_base/_mobile.styl",
+		"/Users/m.matzat/HTDOCS/pulse-website/assets/images/svg/description.svg",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/js/script.js",
+		"/Users/m.matzat/HTDOCS/pulse-website/.project/pulse-website.sublime-project",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/js/swiper.js",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/js/jquery.drawsvg.js",
+		"/Users/m.matzat/HTDOCS/pulse-website/assets/js/script.js",
+		"/Users/m.matzat/HTDOCS/pulse-website/assets/js/swiper.js",
+		"/Users/m.matzat/HTDOCS/pulse-website/miele.html",
+		"/Users/m.matzat/HTDOCS/pulse-website/technology.html",
+		"/Users/m.matzat/HTDOCS/pulse-website/README.md",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/about.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/incl/footer.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/incl/header-solutions.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/solutions_sources_inc.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/incl/header-solutions-sources.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/incl/header-technology.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/pug/incl/header.pug",
+		"/Users/m.matzat/HTDOCS/pulse-website/assets/images/1-INTRO@1x.png",
+		"/Users/m.matzat/HTDOCS/pulse-website/assets/css/style.css",
+		"/Users/m.matzat/HTDOCS/pulse-website/install-modules.sh",
+		"/Users/m.matzat/HTDOCS/pulse-website/Makefile",
+		"/Users/m.matzat/HTDOCS/pulse-website/library/stylus/style.styl",
+		"/Users/m.matzat/HTDOCS/pulse-website/index.html",
+		"/Users/m.matzat/HTDOCS/infomaker/index.php",
+		"/Users/m.matzat/HTDOCS/infomaker/assets/css/style-default.css",
+		"/Users/m.matzat/HTDOCS/infomaker/assets/js/script-default.js",
+		"/Users/m.matzat/HTDOCS/infomaker/install-modules.sh",
+		"/Users/m.matzat/HTDOCS/infomaker/src/default-table.php",
+		"/Users/m.matzat/HTDOCS/infomaker/src/uploaderNconverter.inc.php",
+		"/Users/m.matzat/HTDOCS/infomaker/assets/css/style-default-mobile.css",
+		"/Users/m.matzat/HTDOCS/chinabeats/form.php",
+		"/Users/m.matzat/HTDOCS/chinabeats/assets/dl/sourcefile.txt",
+		"/Users/m.matzat/HTDOCS/chinabeats/download.php",
+		"/Users/m.matzat/HTDOCS/chinabeats/src/crontab_cb.sh",
+		"/Users/m.matzat/HTDOCS/chinabeats/src/mailer.inc.php",
+		"/Users/m.matzat/HTDOCS/chinabeats/assets/js/script.js",
+		"/Users/m.matzat/HTDOCS/chinabeats/form.html",
+		"/Users/m.matzat/HTDOCS/dared-studio/assets/js/intro.html",
+		"/Users/m.matzat/HTDOCS/dared-studio/.htaccess",
+		"/Users/m.matzat/HTDOCS/dared-studio/  ",
+		"/Users/m.matzat/HTDOCS/dared-studio/assets/js/preloader-default.js",
+		"/Users/m.matzat/HTDOCS/dared-art/index.html",
+		"/Users/m.matzat/HTDOCS/dared-studio/assets/css/preloader-default.css",
+		"/Users/m.matzat/HTDOCS/dared-art/assets/css/animations-default.css",
+		"/Users/m.matzat/HTDOCS/dared-studio/assets/css/animations-default.css",
+		"/Users/m.matzat/HTDOCS/dared-art/.project/dared-art.sublime-project",
+		"/Users/m.matzat/HTDOCS/dared-art/assets/js/preloader-default.js",
+		"/Users/m.matzat/HTDOCS/dared-art/assets/js/script-default.js",
+		"/Users/m.matzat/HTDOCS/dared-art/assets/css/style-default-mobile.css",
+		"/Users/m.matzat/HTDOCS/dared-art/index-loadingspinner.html",
+		"/Users/m.matzat/HTDOCS/dared-art/assets/css/preloader-default.css",
+		"/Users/m.matzat/HTDOCS/dared-art/assets/css/style-default.css",
+		"/Users/m.matzat/HTDOCS/dared-art/lib/jquery_libs/lsPreloader.js",
+		"/Users/m.matzat/HTDOCS/dared-art/assets/css/loadingspinner.css",
+		"/Users/m.matzat/HTDOCS/dared-art/lib/jquery_libs/loadingspinner.js",
+		"/Users/m.matzat/HTDOCS/dared-art/lib/node_modules/chalk/readme.md",
+		"/Users/m.matzat/HTDOCS/dared-art/lib/node_modules/@material/checkbox/component.js",
+		"/Users/m.matzat/HTDOCS/dared-art/assets/images/icons/icon_instagram.svg",
+		"/Users/m.matzat/HTDOCS/dared-art/assets/images/icons/icon_facebook.svg",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/include/tokens.inc.php",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/social_pulse_bmw.html",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/js/social_script_multiple_dev.js",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/.projects/td-socialfeed-2019.sublime-project",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/test.html",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/social_pulse_bmw_dev.html",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/js/jquery.bxslider.js",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/social_pulse_bmw_dev2.html",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/js/social_script.js",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/js/jquery.bxslider.4215.js",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/include/filter.inc_bmw.php",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/tools/generate-static-json_bmw.php",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/include/functions.inc.php",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/include/filter.inc_bmw_2.php",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/feedbot_bmw_dev.php",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/js/social_script_bmw.js",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/view/BMW/json/all_models_bmw.json",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/tools/bla.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/src/includes/influencerbot.config.inc.php",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/include/api-external/facebook/facebook-api-v2_bmw.php",
+		"/Users/m.matzat/HTDOCS/td-socialfeed/tools/generate-static-json.php",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/social_pulse_MIELE.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/benchmarking_MIELE.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/influencers_MIELE.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/css/bxslider_MIELE.css",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/css/bxslider_MINI.css",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/css/bxslider_BMW.css",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/social_pulse_BMW.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/social_pulse_MINI.html",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/js/social.script.MINI.js",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/js/MIELE/benchmark_script.js",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/zonatortona2018.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/influencers_zonatortona2018.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/influencers_50bestsanfrancisco.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/50bestbilbao.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/50bestbogota.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/50bestmacao.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/50bestsanfrancisco.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/ifa2018.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/influencers_50bestbilbao.json",
+		"/Users/m.matzat/HTDOCS/TD-SOCIALFEED-2019/assets/json/MIELE/influencers_50bestmacao.json"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"container",
+			"right-left",
+			"bottom-top",
+			"bottom-to-top",
+			"bottom-top",
+			"right-to-left",
+			"right-left",
+			"bottom-top",
+			"bottom-to-top",
+			"bottom-top",
+			"\n}",
+			" {",
+			"background",
+			"bgcolor",
+			"js",
+			"css"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								695
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/flowin_dev.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/stylus/src/vars.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/stylus/src/hover.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/stylus/src/fadein.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/stylus/flowin.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/stylus/src/keyframes.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/stylus/src/example-data.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "flowin-js.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

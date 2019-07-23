@@ -1,0 +1,850 @@
+/*
+Site Name: flowin.js
+Owner: Michael Matzat (gemichelst.de)
+Author: Michael Matzat (gemichelst.de)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #222;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+@-webkit-keyframes fadein-bottom-to-top {
+  0% {
+    -webkit-transform: translate(0px, 200%);
+            transform: translate(0px, 200%);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate(0px, 50%);
+            transform: translate(0px, 50%);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@keyframes fadein-bottom-to-top {
+  0% {
+    -webkit-transform: translate(0px, 200%);
+            transform: translate(0px, 200%);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate(0px, 50%);
+            transform: translate(0px, 50%);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein-top-to-bottom {
+  0% {
+    -webkit-transform: translate(0px, -$default_translate);
+            transform: translate(0px, -$default_translate);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate(0px, -50%);
+            transform: translate(0px, -50%);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@keyframes fadein-top-to-bottom {
+  0% {
+    -webkit-transform: translate(0px, -$default_translate);
+            transform: translate(0px, -$default_translate);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate(0px, -50%);
+            transform: translate(0px, -50%);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein-right-to-left {
+  0% {
+    -webkit-transform: translate(200%, 0px);
+            transform: translate(200%, 0px);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate(50%, 0px);
+            transform: translate(50%, 0px);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@keyframes fadein-right-to-left {
+  0% {
+    -webkit-transform: translate(200%, 0px);
+            transform: translate(200%, 0px);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate(50%, 0px);
+            transform: translate(50%, 0px);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein-left-to-right {
+  0% {
+    -webkit-transform: translate(-$default_translate, 0px);
+            transform: translate(-$default_translate, 0px);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate(-50%, 0px);
+            transform: translate(-50%, 0px);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+@keyframes fadein-left-to-right {
+  0% {
+    -webkit-transform: translate(-$default_translate, 0px);
+            transform: translate(-$default_translate, 0px);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate(-50%, 0px);
+            transform: translate(-50%, 0px);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+.flowin_fadein-bottom-top-1 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-2 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 0.5s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 0.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-3 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 0.75s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 0.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-4 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 1s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 1s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-5 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 1.25s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 1.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-6 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 1.5s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 1.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-7 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 1.75s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 1.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-8 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 2s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 2s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-9 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 2.25s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 2.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-10 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 2.5s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 2.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-11 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 2.75s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 2.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-12 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 3s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 3s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-13 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 3.25s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 3.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-14 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 3.5s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 3.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-15 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 3.75s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 3.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-16 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 4s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-17 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 4.25s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 4.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-18 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 4.5s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 4.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-19 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 4.75s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 4.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-bottom-top-20 {
+  opacity: 0;
+  -webkit-animation: fadein-bottom-to-top 0.25s 5s ease-in-out;
+          animation: fadein-bottom-to-top 0.25s 5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-1 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-2 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 0.5s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 0.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-3 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 0.75s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 0.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-4 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 1s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 1s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-5 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 1.25s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 1.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-6 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 1.5s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 1.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-7 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 1.75s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 1.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-8 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 2s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 2s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-9 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 2.25s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 2.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-10 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 2.5s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 2.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-11 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 2.75s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 2.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-12 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 3s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 3s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-13 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 3.25s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 3.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-14 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 3.5s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 3.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-15 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 3.75s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 3.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-16 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 4s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-17 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 4.25s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 4.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-18 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 4.5s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 4.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-19 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 4.75s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 4.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-top-bottom-20 {
+  opacity: 0;
+  -webkit-animation: fadein-top-to-bottom 0.25s 5s ease-in-out;
+          animation: fadein-top-to-bottom 0.25s 5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-1 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s ease-in-out;
+          animation: fadein-right-to-left 0.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-2 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 0.5s ease-in-out;
+          animation: fadein-right-to-left 0.25s 0.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-3 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 0.75s ease-in-out;
+          animation: fadein-right-to-left 0.25s 0.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-4 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 1s ease-in-out;
+          animation: fadein-right-to-left 0.25s 1s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-5 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 1.25s ease-in-out;
+          animation: fadein-right-to-left 0.25s 1.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-6 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 1.5s ease-in-out;
+          animation: fadein-right-to-left 0.25s 1.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-7 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 1.75s ease-in-out;
+          animation: fadein-right-to-left 0.25s 1.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-8 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 2s ease-in-out;
+          animation: fadein-right-to-left 0.25s 2s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-9 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 2.25s ease-in-out;
+          animation: fadein-right-to-left 0.25s 2.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-10 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 2.5s ease-in-out;
+          animation: fadein-right-to-left 0.25s 2.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-11 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 2.75s ease-in-out;
+          animation: fadein-right-to-left 0.25s 2.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-12 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 3s ease-in-out;
+          animation: fadein-right-to-left 0.25s 3s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-13 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 3.25s ease-in-out;
+          animation: fadein-right-to-left 0.25s 3.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-14 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 3.5s ease-in-out;
+          animation: fadein-right-to-left 0.25s 3.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-15 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 3.75s ease-in-out;
+          animation: fadein-right-to-left 0.25s 3.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-16 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 4s ease-in-out;
+          animation: fadein-right-to-left 0.25s 4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-17 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 4.25s ease-in-out;
+          animation: fadein-right-to-left 0.25s 4.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-18 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 4.5s ease-in-out;
+          animation: fadein-right-to-left 0.25s 4.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-19 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 4.75s ease-in-out;
+          animation: fadein-right-to-left 0.25s 4.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-right-left-20 {
+  opacity: 0;
+  -webkit-animation: fadein-right-to-left 0.25s 5s ease-in-out;
+          animation: fadein-right-to-left 0.25s 5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-1 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s ease-in-out;
+          animation: fadein-left-to-right 0.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-2 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 0.5s ease-in-out;
+          animation: fadein-left-to-right 0.25s 0.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-3 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 0.75s ease-in-out;
+          animation: fadein-left-to-right 0.25s 0.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-4 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 1s ease-in-out;
+          animation: fadein-left-to-right 0.25s 1s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-5 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 1.25s ease-in-out;
+          animation: fadein-left-to-right 0.25s 1.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-6 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 1.5s ease-in-out;
+          animation: fadein-left-to-right 0.25s 1.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-7 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 1.75s ease-in-out;
+          animation: fadein-left-to-right 0.25s 1.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-8 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 2s ease-in-out;
+          animation: fadein-left-to-right 0.25s 2s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-9 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 2.25s ease-in-out;
+          animation: fadein-left-to-right 0.25s 2.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-10 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 2.5s ease-in-out;
+          animation: fadein-left-to-right 0.25s 2.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-11 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 2.75s ease-in-out;
+          animation: fadein-left-to-right 0.25s 2.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-12 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 3s ease-in-out;
+          animation: fadein-left-to-right 0.25s 3s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-13 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 3.25s ease-in-out;
+          animation: fadein-left-to-right 0.25s 3.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-14 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 3.5s ease-in-out;
+          animation: fadein-left-to-right 0.25s 3.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-15 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 3.75s ease-in-out;
+          animation: fadein-left-to-right 0.25s 3.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-16 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 4s ease-in-out;
+          animation: fadein-left-to-right 0.25s 4s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-17 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 4.25s ease-in-out;
+          animation: fadein-left-to-right 0.25s 4.25s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-18 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 4.5s ease-in-out;
+          animation: fadein-left-to-right 0.25s 4.5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-19 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 4.75s ease-in-out;
+          animation: fadein-left-to-right 0.25s 4.75s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_fadein-left-right-20 {
+  opacity: 0;
+  -webkit-animation: fadein-left-to-right 0.25s 5s ease-in-out;
+          animation: fadein-left-to-right 0.25s 5s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.flowin_hover-scaleup-125:hover {
+  width: 125px;
+  height: 125px;
+}
+.flowin_hover-scaleup-250:hover {
+  width: 250px !important;
+  height: 250px !important;
+}
+.example--body {
+  background: #222;
+  margin: 5rem;
+  color: #fff;
+}
+.example--container {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.example--container::after {
+  clear: both;
+}
+.example--rectangle {
+  width: 125px;
+  height: 125px;
+  margin: 0.5rem;
+  float: left;
+}
+.example--background-red {
+  background: #d13f19;
+}
+.example--background-green {
+  background: #2ecc40;
+}
+.example--background-blue {
+  background: #0074d9;
+}
+.example--background-yellow {
+  background: #ffdc00;
+}
+.example--background-purple {
+  background: #b10dc9;
+}
+.example--color-red {
+  color: #d13f19;
+}
+.example--color-green {
+  color: #2ecc40;
+}
+.example--color-blue {
+  color: #0074d9;
+}
+.example--color-yellow {
+  color: #ffdc00;
+}
+.example--color-purple {
+  color: #b10dc9;
+}
+/*# sourceMappingURL=flowin.css.map */
